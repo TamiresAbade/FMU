@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+}
+
+body {
+    background: #ffffff;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.entrar-div {
+    float: left;
+    margin-left: 70vw !important;
+}
+
+.entrar {
+    color: #ff5757;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.img-logo {
+    width: 500px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.menu {
+    margin: 16pt 5pt 0 5pt;
+    border-bottom: 1pt solid rgb(83, 83, 83);
+    text-align: center;
+    padding-bottom: 5pt;
+    height: 50px;
+    font-weight: bold;
+}
+
+.menu .menu-item {
+    font-size: 13pt;
+    color: #ff5757;
+    text-decoration: none;
+    margin-left: 5pt;
+    transition: 150ms;
+}
+
+.menu .menu-item-principal {
+    font-size: 16pt;
+}
+
+.menu .menu-item:hover {
+    font-size: 15pt;
+}
+
+.menu .menu-item-principal:hover {
+    font-size: 16pt;
+}
+
+fieldset.cadastro {
+    margin: 50px auto;
+    min-width: 250px;
+    width: 50vw;
+    max-width: 500px;
+
+    text-align: center;
+    font-size: 18pt;
+}
+fieldset.cadastro > a{
+    font-size: 16pt;
+    text-decoration: none;
+    color: #ff5757;
+
+    transition: 150ms;
+}
+fieldset.cadastro > a:hover{
+    font-size: 17pt;
+    color: #fd3d3d;
+}
+
+fieldset.cadastro > legend{
+    color: #ff5757;
+    margin-bottom: 30px;
+}
