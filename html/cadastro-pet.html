@@ -26,35 +26,83 @@
             </a>
         </nav>
     </header>
-    <form class="pure-form pure-form-aligned">
+    <form class="pure-form pure-form-aligned form">
         <fieldset>
+            <legend>Dados do cliente</legend>
             <div class="pure-control-group">
-                <label for="name">Username</label>
-                <input id="name" type="text" placeholder="Username">
-                <span class="pure-form-message-inline">This is a required field.</span>
+                <label for="name">Nome do dono:</label>
+                <input id="name" type="text" placeholder="Nome do dono">
+                <span class="pure-form-message-inline">Campo requerido:</span>
             </div>
 
             <div class="pure-control-group">
-                <label for="password">Password</label>
-                <input id="password" type="password" placeholder="Password">
+                <label for="cpf">CPF:</label>
+                <input id="cpf" type="text" placeholder="CPF">
             </div>
 
             <div class="pure-control-group">
-                <label for="email">Email Address</label>
-                <input id="email" type="email" placeholder="Email Address">
+                <label for="address">Endereço:</label>
+                <input id="address" type="text" placeholder="Endereço">
             </div>
 
             <div class="pure-control-group">
-                <label for="foo">Label</label>
-                <input id="foo" type="text" placeholder="Enter something here...">
+                <label for="address">Endereço:</label>
+                <input id="address" type="text" placeholder="Endereço">
+            </div>
+
+            <div class="pure-control-group">
+                <label for="telephone">Telefone:</label>
+                <input id="telephone" type="text" placeholder="Telefone">
+            </div>
+
+            <div class="pure-control-group">
+                <label for="email">Endereço de Email:</label>
+                <input id="email" type="email" placeholder="Endereço de Email">
+            </div>
+
+            <div class="pure-control-group">
+                <label for="radiosSex">Sexo:</label>
+                <label id="radiosSex">
+                    <label for="masculino" class="pure-radio">
+                        <input id="masculino" type="radio" name="sex" value="masculino" checked>
+                        Masculino
+                    </label>
+
+                    <label for="feminino" class="pure-radio">
+                        <input id="feminino" type="radio" name="sex" value="feminino">
+                        Feminino
+                    </label>
+                </div>
+            </div>
+
+        </fieldset>
+        <fieldset>
+            <legend>Dados do PET</legend>
+            <div class="pure-control-group">
+                <label for="petname">Nome do pet:</label>
+                <input id="petname" type="text" placeholder="Nome do pet">
+            </div>
+
+            <div class="pure-control-group">
+                <label for="breed">Raça:</label>
+                <input id="breed" type="text" placeholder="Raça do pet">
+            </div>
+
+            <div class="pure-control-group">
+                <label for="petsex">Sexo do pet:</label>
+                <input id="petsex" type="text" placeholder="Sexo do pet">
+            </div>
+
+            <div class="pure-control-group">
+                <label for="petage">Idade do pet:</label>
+                <input id="petage" type="number" min="0" value="0" placeholder="Idade do pet">
             </div>
 
             <div class="pure-controls">
                 <label for="cb" class="pure-checkbox">
-                    <input id="cb" type="checkbox"> I've read the terms and conditions
+                    <input id="cb" type="checkbox"> Eu li os termos e condições
                 </label>
-
-                <button type="submit" class="pure-button pure-button-primary">Submit</button>
+                <button type="submit" class="pure-button pure-button-primary">Cadastrar</button>
             </div>
         </fieldset>
     </form>

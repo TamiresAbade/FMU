@@ -95,3 +95,9 @@ fieldset.cadastro > legend{
     color: #ff5757;
     margin-bottom: 30px;
 }
+
+form.form{
+    min-width: 700px;
+    max-width: 700px;
+    margin: 15px auto;
+}
